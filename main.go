@@ -36,7 +36,7 @@ type KPRspResult struct {
 	CanReadAllGroupMessages bool   `json:"can_read_all_group_messages"`
 	SupportsInlineQueries   bool   `json:"supports_inline_queries"`
 }
-
+## happy
 func main() {
 	rsp, err := http.Get(GET_ME)
 	if err != nil {
